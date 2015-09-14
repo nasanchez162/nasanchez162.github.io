@@ -45,10 +45,14 @@ body {
 
 .featurette-image.pull-left {
     margin-right: 40px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 .featurette-heading {
