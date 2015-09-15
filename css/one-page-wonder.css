@@ -12,7 +12,8 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    /**background: url('http://placehold.it/1900x500') no-repeat center center scroll;*/
+    background: url("imag05.png") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -25,14 +26,14 @@ body {
 
 .headline h1 {
     font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    /**background: #fff;*/
+    /**background: rgba(255,255,255,0.9);*/
 }
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: #fff;*/
+    /**background: rgba(255,255,255,0.9);*/
 }
 
 .featurette-divider {
@@ -355,7 +356,7 @@ footer {
     color: #000000 !important;
 }
 .timeline-badge a:hover {
-    color: #dcdcdc !important;
+    color: #000000 !important;
 }
 .timeline-title {
     margin-top: 0;
@@ -391,6 +392,11 @@ footer {
 }
 .no-float {
     float: none !important;
+}
+
+table{
+    width: 50%;
+    margin: 0px;
 }
 
 
